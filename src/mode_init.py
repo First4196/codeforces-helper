@@ -22,7 +22,7 @@ def run(arg):
         num_prob = int(arg[1])
 
         # check folder already exist
-        folder_path = os.environ['CODEFORCES'] + '/' + contest_name
+        folder_path = os.environ['CF'] + '/' + contest_name
         ContestFolderAlreadyExistError.check(folder_path)
 
         # init contest
